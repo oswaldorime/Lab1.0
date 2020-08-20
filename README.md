@@ -6,3 +6,6 @@ Es la página del laboratorio de histo citopatologia, en la cual van a registrar
 
 
 ## El diseño original se obtuvo de aquí:(https://startbootstrap.com/templates/sb-admin/)
+
+##Prueba Atom
+Test pull
