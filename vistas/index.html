@@ -8,14 +8,14 @@
         <meta name="author" content="" />
         <title>Lab. de Cito-Histopátología</title>
         <link href="css/styles.css" rel="stylesheet" />
-        <link href="https://cdn.datatables.net/1.10.20/css/dataTables.bootstrap4.min.css" rel="stylesheet" crossorigin="anonymous" />
+        <link href=" https://cdn.datatables.net/1.10.20/css/dataTables.bootstrap4.min.css" rel="stylesheet" crossorigin="anonymous" />
         <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/js/all.min.js" crossorigin="anonymous"></script>
     </head>
     <body class="sb-nav-fixed">
-        <nav class="sb-topnav navbar navbar-expand navbar-dark bg-dark"> 
+        <nav class="sb-topnav navbar navbar-expand navbar-dark bg-dark">
             <button class="btn btn-link btn-sm order-1 order-lg-0" id="sidebarToggle" href="#"><i class="fas fa-bars"></i></button>
             <a class="navbar-brand" href="index.html">Laboratorio de Cito-Histopátología</a>
-           
+
             <!-- Navbar Search-->
             <form class="d-none d-md-inline-block form-inline ml-auto mr-0 mr-md-3 my-2 my-md-0">
                 <div class="input-group">
@@ -32,7 +32,7 @@
                     <div class="dropdown-menu dropdown-menu-right" aria-labelledby="userDropdown">
                       <!-- <a class="dropdown-item" href="#">Settings</a>
                         <a class="dropdown-item" href="#">Activity Log</a>
-                        <div class="dropdown-divider"></div> -->  
+                        <div class="dropdown-divider"></div> -->
                         <a class="dropdown-item" href="login.html">Cerrar sesión</a>
                     </div>
                 </li>
@@ -58,7 +58,7 @@
                                 <nav class="sb-sidenav-menu-nested nav">
                                     <a class="nav-link" href="busqueda.html">Agregar estudio</a>
                                     <a class="nav-link" href="edicion.html">Editar diagnostico</a>
-                                    <a class="nav-link" href="pacientes.html">Editar paciente</a>  
+                                    <a class="nav-link" href="pacientes.html">Editar paciente</a>
                                 </nav>
                             </div>
                             <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapsePages" aria-expanded="false" aria-controls="collapsePages">
@@ -125,10 +125,10 @@
                                   <button type="button" class="close" onclick="location.href='estudios.html'" data-dismiss="modal" aria-label="Close">
                                     <span aria-hidden="true">&times;</span>
                                   </button>
-                                  
+
                                 </div>
                                 <div class="modal-body"style="text-align: center;">
-                                 <h6 >Se registró a @USUARIO de manera éxitosa</h6> 
+                                 <h6 >Se registró a @USUARIO de manera éxitosa</h6>
                                  <a class="btn btn-primary " href="estudios.html">Agregar estudios</a>
                                 </div>
                               </div>
@@ -164,24 +164,24 @@
                                             <input type="radio" id="customRadioInline2" name="customRadioInline1" class="custom-control-input">
                                             <label class="custom-control-label" for="customRadioInline2">Femenino</label>
                                           </div>
-                                     </div>   
+                                     </div>
                                   </div>
                                   <div class="form-group col-md-6">
                                      <label for="inputMedico">Medico</label>
                                      <input type="text" class="form-control" id="inputMedico" placeholder="Medico">
-                                  </div> 
+                                  </div>
                                   <div class="form-group col-md-6">
                                     <label for="inputEmpresa">Empresa</label>
                                     <!--<input type="text" class="form-control" id="inputEmpresa" placeholder="Empresa">-->
-                                    
+
                                         <select class="browser-default custom-select" id="slct_empresa" name="slct_empresa" placeholder="Empresa" required>
                                           <option value="">Selecciona una empresa</option>
                                           <option value="Parti">Particular</option>
                                           <option value="A">opcA</option>
                                           <option value="B">opcB</option>
                                         </select>
-                                      
-                                 </div> 
+
+                                 </div>
                               <div class="form-group col-md-6">
                                 <label for="inputEmail4">Correo</label>
                                 <input type="email" class="form-control" autocomplete="off" id="inputEmail4" placeholder="Correo">
@@ -267,7 +267,7 @@
                                     </div>
                                 </div>
                             </div>
-                        </div> 
+                        </div>
                         <div class="row">
                             <div class="col-xl-6">
                                 <div class="card mb-4">
@@ -291,10 +291,10 @@
                         <div class="card" style="width:100%;">
                             <div class="card-header">
                                 <i class="fas fa-table mr-1"></i>
-                                Estudios recientes 
+                                Estudios recientes
                             </div>
                             <div class="card-body col-md-12">
-                                
+
                                 <div class="table-responsive">
                                     <table class="table table-bordered" id="dataTable" width="100%" cellspacing="0">
                                         <thead>
