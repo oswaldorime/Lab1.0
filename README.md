@@ -1,4 +1,4 @@
-# [Página para laboratorio de Hito-citopatologia]
+# [Página para laboratorio de Histo-citopatologia]
 
 
 ## Descripción
