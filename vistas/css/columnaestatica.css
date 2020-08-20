@@ -1,0 +1,94 @@
+.table-container{
+    width: auto;
+    max-height: 512px;
+    overflow: scroll;
+    border-right: solid 1px #ccc;
+    border-left: solid 1px #ccc;
+}
+.table-pacientes{
+  border:0;  
+  border-spacing: 0;
+}  
+.table-pacientes thead th{
+  background: #333;
+  color: white;
+}
+.table-pacientes td{
+  border-right: 5px;
+  min-width: 150px;
+  max-width: 250px;
+  text-overflow: ellipsis;
+  overflow:hidden;
+  max-height: 100px;
+  padding:0.5rem;
+  text-align: left;
+}
+.table-pacientes td .fija{
+  border-right: 5px;
+  padding:0.5rem;
+  text-align: left;
+}
+.table-pacientes th{
+  border-right: 5px;
+  min-width: 50px;
+  padding:0.5rem;
+  text-align: center;
+}
+
+.table-pacientes th :last-child,
+.table-pacientes td :last-child{
+  border-right: 0;
+}
+.table-pacientes td {
+  border-bottom: 1px solid #ccc;
+}
+.table-pacientes tbody tr{
+  background: white;
+}
+.table-pacientes tbody tr:nth-child(2n){
+  background:#f2f2f2;
+}
+.table-pacientes .fija{
+  position: sticky;
+  left:0;
+}
+.table-pacientes tbody tr .fija{
+  background: white;
+  text-align: center;
+}
+.table-pacientes tbody tr:nth-child(2n) .fija{
+  background:#f2f2f2;
+  text-align: center;        
+}
+.table-pacientes .fija2{
+  position: sticky;
+  left:150PX;
+}
+.table-pacientes tbody tr .fija2{
+  background: white;
+  text-align: center;
+}
+.table-pacientes tbody tr:nth-child(2n) .fija2{
+  background:#f2f2f2;
+  text-align: center;        
+}
+.table-pacientes .fija3{
+  position: sticky;
+  left:300PX;
+}
+.table-pacientes tbody tr .fija3{
+  background: white;
+  text-align: center;
+}
+.table-pacientes tbody tr:nth-child(2n) .fija3{
+  background:#f2f2f2;
+  text-align: center;        
+}
+.hide {display:none;}
+
+.red {color:Red;}
+.paciente p{
+  border-left: 6px solid red;
+  background-color: lightgrey;
+}
+   
